@@ -1,0 +1,76 @@
+delete-parkingplace 1000000
+add-parkingplace Nowowiejska 13, Warszawa
+show-parkingplaces
+delete-parkingplace 1000000
+show-parkingplaces
+add-parkingplace Grojecka 15, Zyrardow
+show-parkingplaces
+
+delete-user 3000000
+add-user 1560
+show-users
+delete-user 3000000
+show-users
+add-user 2450
+show-users
+
+delete-car 2000000
+add-car WWA3332 15/3/2017 19/10/2018 1000000
+show-cars
+delete-car 2000000
+show-cars
+add-car EL41232 11/5/2017 19/11/2019 1000000
+show-cars
+
+add-parkingplace asddddddddddddd asdddddddddddddd asddddddddddddddddddddddddddd
+add-parkingplace asddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd
+add-parkingplace Motyla 15, Warszawa
+add-parkingplace Olsztynska 16, Lodz
+add-parkingplace Morawska 45/5A, Modlin
+show-parkingplaces
+show-parkingplaces free
+show-parkingplaces car 2000000
+
+add-user 123asd
+add-user !"£$%"
+add-user 12345
+add-user 1233 asdd asdd
+add-user 54321
+add-user 4000
+show-users
+show-users free
+show-users renting
+show-users car 2000000
+
+add-car WWA3332 asdd gwafq asdqee
+add-car 123asd
+add-car WWA3332 15.3.2017 19.10.2018 1000000
+add-car WW178A5 1/1/2010 27/12/2018 1000001
+add-car GD24784 3/7/2012 20/6/2020 1000000
+add-car PG1478A5 15/3/2017 19/10/2018 1000002
+add-car GD24783 3/6/2011 30/5/2019 10000
+add-car EL12345 32/12/2012 12/12/2018 1000000
+add-car AAJLKJT 5.10.2011 5/10/2019 1000001
+add-car LKJLKJR asd 5/1/2-13 1000003
+add-car LKJALKJ 0/0/0 0/0/0 1000000
+add-car POPO123 3/14/966 1/2/45 1000002
+add-car MALALA1 3/12/2015 1/1/2019 1000004
+add-car WWA3332 15/3/2017 19/10/2018 1000000
+add-car PSDQ78A 15/3/2017 02/7/2014 1000001
+add-car PLU190B 15/3/2017 01/7/2014 1000000
+add-car HPP123 a/12/2017 b/2/2 1000000
+show-cars
+show-cars free
+show-cars parked 1231233
+show-cars parked 1000000
+show-cars user  4123414
+show-cars user 3000000
+show-cars upcomingcheck
+
+rent-car 2000000 3000000
+rent-car 2000099 3000099
+rent-car 2000001 3000000
+rent-car 2000000 3000001
+show-cars
+show-users
+exit
